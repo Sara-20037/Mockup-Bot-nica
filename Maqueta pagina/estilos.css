@@ -1,0 +1,84 @@
+body {
+    background-image: url(./Img/bosque-f.jpg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+}
+
+@font-face {
+    font-family: Bento;
+    src: url(./Tp/BentogaItalic-Thin.otf);
+}
+@font-face {
+    font-family: Shor;
+    src: url(./Tp/ShortStack-Regular.ttf);
+}
+
+a:hover {
+    background-color: rgb(187, 252, 192);
+    transition: 0.5s;
+}
+
+a {
+    font-family: Bento;
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    background-color: #cbffc8b5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15pt;
+    padding: 0.3rem;
+}
+
+.hongo img{
+    align-items: center;
+    height: 300px;
+    width: 300px;
+}
+h2 {
+    font-family: Bento;
+    font-size: 30pt;
+    text-align: center;
+    text-decoration: none;
+    margin: 2rem auto;
+    color: white;
+}
+
+p {
+    font-family: Shor;
+    font-size: 12pt;
+    font-weight: 700;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+}
+
+.titulo1 {
+    font-family: Bento;
+    font-size: 20pt;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+}
+
+.titulo2 {
+    font-family: Bento;
+    font-size: 20pt;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+}
+
+.body2{
+    display: flex;
+    align-content: center;
+    margin: 2rem 4rem;
+    gap: 5rem;
+}
